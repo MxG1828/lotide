@@ -13,5 +13,5 @@ let assertArraysEqual = function(array1,array2) {
     }
   }console.log(`✅✅✅Assertion Passed: ${array1} === ${array2}`);
 }
-assertArraysEqual([1,2,3,4],[1,2,3,4]);
-assertArraysEqual([1,2,3,4],['1','2','3','4']);
+
+module.exports = assertArraysEqual;
