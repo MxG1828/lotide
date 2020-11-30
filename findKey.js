@@ -12,6 +12,7 @@ let findKey = function(object,callback) {
     }
   }
 };
+module.exports = findKey;
 
 assertEqual(findKey({
   "Blue Hill": { stars: 1 },
